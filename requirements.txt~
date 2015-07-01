@@ -1,5 +1,5 @@
 django
 django-embed_video
-django-simple-capcha==0.4.5
+django-simple-capcha
 pillow
 
