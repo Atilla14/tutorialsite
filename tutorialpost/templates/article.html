@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tutorialsguy :Tutorials and beyond</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/static/css/screen.css" />
+    <link href="/static/css/shop-homepage.css" rel="stylesheet">
+    <link href="/static/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="header">
+  <h1>Tutorialsguytutorials | Forum Portal</h1>
+</div>
+<div id="navigation">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">Tutorialsguy Tutorials</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="/" class="fa fa-home"> Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-paw"> Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="fa fa-phone-square"> Contact</a>
+                    </li>
+                    <li>
+                        <a href="/forum/all" class="fa fa-question"> Forums</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+</div>
+
+<body id ="page-top">
+
+    <!-- Navigation -->
+
+
+    <!-- Page Content -->
+  <div id="wrapper" class >
+    <div id="content-wrapper">
+      <div id="content">
+        {% block content %}
+            <dl>
+                <h2>Forums</h2>
+                <hr>
+                <h7> Get and access and contribute to all a huge bunch of information right here from the forums! Post as much
+                and ask as many questions. Let the community help you :)</h7>
+                <hr>
+
+                  <div>
+
+
+                    {% if object_list.count > 0 %}
+                    {% for Forum in object_list %}
+                    <dt><a href ="/forum/get/{{ Forum.id }}/">{{ Forum.id }} : {{ Forum.title }}</a></dt>
+                    <dt> {{ Forum.description|lower|truncatewords:"18" }} </dt>
+                    {% endfor %}
+                    {% else%}
+                    <p> No forums to show!!! </p>
+                    {% endif %}
+                  </div>
+            </dl>
+        {% endblock %}
+        <!--
+        <h6>Other Stuff</h6>
+        <blockquote>
+          <p>I can't help it if people want to go to hell. <cite>&mdash; <abbr title="Invisible Pink Unicorn">IPU</abbr></cite></p>
+        </blockquote>
+        <pre><code>This is unlike any code I've ever seen in my entire life. Well, minus my dreams, maybe.</code></pre>   -->
+      </div>
+    </div>
+    <div id="sidebar-wrapper">
+      <div id="sidebar">
+        {% block sidebar %}
+        <h3>Actions</h3>
+        <ul>
+            <li><a href ="/accounts/register">Register and subscribe to our services</a></li>
+            <li><a href ="/forum/all">View all forum post</a></li>
+            <li><a href="/forum/post/">Create a new forum post</a></li>
+        </ul>
+        {% endblock %}
+        <h3>An Ordered List</h3>
+        <ol>
+          <li>How to become <strong>one</strong> is studied by many.</li>
+          <li>Yin/yang. Left/right. Up/down. Black/white. <strong>Two</strong> thousand six hundred and forty-<strong>two</strong>.</li>
+          <li><strong>Three</strong> Little Pigs. <strong>Three</strong> Blind Mice. <strong>Three</strong> Wolves and a Swan Prince.</li>
+          <li>A Quarter + A Dime + A Nickel = <strong>4</strong> Dimes.</li>
+          <li>Now I know my 1, 2, 3; I can go to 4, <strong>5</strong>, 6.</li>
+          <li><strong>Six</strong>ty-<strong>six</strong> on <strong>6</strong>/<strong>6</strong>/<strong>6</strong>00<strong>6</strong></li>
+        </ol>
+        <h3>Stats</h3>
+        <p> This page was brought to you by the numbers 8 and 10, which were getting lonely. </p>
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+    <div class="topbtn btn btn-lg  col-lg-12">
+                        <a  href="#page-top">
+                            <i class="fa fa-chevron-circle-up fa-3x"></i>
+                        </a>
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+
+        <!-- Footer -->
+        <footer>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Tutorialsguy 2015</p>
+
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+ <head>
+<!--[if lt ie 7]><link rel="stylesheet" type="text/css" media="screen" href="ie-win.css" /><![endif]-->
+ </head>
+
+<body id="babout">
+
+</body>
+</body></body>
+</html>
