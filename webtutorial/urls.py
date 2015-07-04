@@ -25,7 +25,7 @@ urlpatterns = patterns('',
     
     #url(r'^language/(?P<language>[a-z\-]+)/$',include('tutorialpost.views.language')),
 )
-if not settings.DEBUG:
-    urlpatterns += patterns('',
+from webtutorial import settings
+urlpatterns += patterns('',
         (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
     )
