@@ -1,4 +1,5 @@
 {% extends "article.html" %}
+{% csrf_token %}
 
 {% block sidebar %}
 <ul>
@@ -11,7 +12,7 @@
 
 <form action ="/forum/post/" method="post">{% csrf_token %}
 	<ul>
-		{{ form.as_ul }}
+		{{ form.as_p }}
 		<p>NOTE!: Format of date : dd/mm/yy</P>
 	</ul>
 

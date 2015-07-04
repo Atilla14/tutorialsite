@@ -1,4 +1,4 @@
-{% extends "article.html" %}
+
 
 
 {% block content %}
@@ -7,7 +7,7 @@
 <p class = "error">Sorry.That's an invalid username or password</p>
 {% endif %}
 
-<form action ="/accounts/auth/" method ="post">{% csrf_token %}
+<form action ="auth/" method ="post">{% csrf_token %}
 	<label for ="username">User name:</label>
 	<input type ="text" name ="username" value="" id = "username">
 	<label for ="password">Password:</label>
