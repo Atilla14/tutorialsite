@@ -85,7 +85,7 @@
         </div>
         <!-- /.row -->
         {% block content %}
-        {% for Opencv in object_list %}
+        {% for opencv in object_list %}
  
 
 
@@ -96,15 +96,15 @@
             <div class="col-md-8">
                 <a href="#">
                     {% load embed_video_tags %}
-                    {% video Opencv.url as my_video %}
+                    {% video opencv.url as my_video %}
                     {% video my_video '700x500' %}
                     {% endvideo %}
                 </a>
             </div>
             <div class="col-md-28">
-                <h3><a href ="{{ Opencv.url }}">{{ Opencv.title }}</a></h3>
-                <h4>Uploaded on {{ Opencv.date|date:"d/m/20y" }}</h4>
-                <p>{{ Opencv.description|safe }}</p>
+                <h3><a href ="{{ opencv.url }}">{{ opencv.title }}</a></h3>
+                <h4>Uploaded on {{ opencv.date|date:"d/m/20y" }}</h4>
+                <p>{{ opencv.description|safe }}</p>
             </div>
         </div>
         <!-- /.row -->
@@ -128,7 +128,7 @@
                         <a href="#">1</a>
                     </li>
                     <li>
-                        <a href="/post/opencv/2">2</a>
+                        <a href="/opencv/2">2</a>
                     </li>
                     <li>
                         <a href="#">&raquo;</a>
