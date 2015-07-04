@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="630efcea-a25a-409d-99db-24793ab80f83" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorialpost/templates/error/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/static/img/top.jpg" afterPath="$PROJECT_DIR$/tutorialpost/static/img/top.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/static/img/top.jpg" afterPath="$PROJECT_DIR$/tutorialpost/templates/static/img/top.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/article.html" afterPath="$PROJECT_DIR$/tutorialpost/templates/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/tutorialpost/static/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/create_forum.html" afterPath="$PROJECT_DIR$/tutorialpost/templates/create_forum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/home.html" afterPath="$PROJECT_DIR$/tutorialpost/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/latest.html" afterPath="$PROJECT_DIR$/tutorialpost/templates/latest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/login.html" afterPath="$PROJECT_DIR$/tutorialpost/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/models.py" afterPath="$PROJECT_DIR$/tutorialpost/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/opencv.html" afterPath="$PROJECT_DIR$/tutorialpost/templates/opencv.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/register.html" afterPath="$PROJECT_DIR$/tutorialpost/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtutorial/settings.py" afterPath="$PROJECT_DIR$/webtutorial/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtutorial/urls.py" afterPath="$PROJECT_DIR$/webtutorial/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/views.py" afterPath="$PROJECT_DIR$/tutorialpost/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webtutorial/wsgi.py" afterPath="$PROJECT_DIR$/webtutorial/wsgi.py" />
-    </list>
+    <list default="true" id="630efcea-a25a-409d-99db-24793ab80f83" name="Default" comment="" />
     <ignored path="tutorialsite.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -648,14 +628,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="24" width="1307" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271605" sideWeight="0.48770818" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980174" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24266455" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24266455" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33641976" sideWeight="0.517843" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3271605" sideWeight="0.48136398" order="7" side_tool="false" content_ui="tabs" />
