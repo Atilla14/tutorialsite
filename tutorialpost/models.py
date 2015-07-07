@@ -27,6 +27,7 @@ class Forum(models.Model):
     date =models.DateTimeField()
     guys = forms.ModelChoiceField(queryset=ContentType)
 
+
     def __unicode__(self):
         return self.title
 

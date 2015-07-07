@@ -1,49 +1,30 @@
-from django.shortcuts import render
+from django.contrib.auth import login
+from django.shortcuts import render_to_response
+from django.contrib.auth.forms import UserCreationForm
+from django.shortcuts import render, redirect
 from django.contrib import auth
 from django.core.context_processors import csrf
-from django.shortcuts import render_to_response
 from tutorialpost.models import Forum
 from django.http import HttpResponse ,HttpResponseRedirect
-from forms import MyRegistrationForm
+from forms import  CaptchaForm
 from forms import ForumForm as ArticleForm
-from PIL import Image,ImageDraw,ImageFilter,ImageFont
-
 # Create your views here.
-from django.shortcuts import render_to_response
-from django.template import RequestContext
 
-
-def handler404(request):
-    response = render_to_response('/templates/error/404.html', {},
-                                  context_instance=RequestContext(request))
-    response.status_code = 404
-    return response
-
-
-def handler500(request):
-    response = render_to_response('/templates/error/404.html', {},
-                                  context_instance=RequestContext(request))
-    response.status_code = 500
-    return response
-def login(request):
-    c={}
-    c.update(csrf(request))
-    return render_to_response('login.html',c)
 
 def auth_view(request):
-  username =request.POST.get('username','')
-  password = request.POST.get('password','')
-  user =auth.authenticate(username=username,password=password)
+    username = request.POST.get('username','')
+    password = request.POST.get('password','')
+    user = auth.authenticate(username=username,password=password)
 
-  if user is not None:
-    auth.login(request,user)
-    return HttpResponseRedirect('/accounts/loggedin')
-  else:
-    return HttpResponseRedirect('/accounts/invalid')
+    if user is not None:
+        auth.login(request,user)
+        return HttpResponseRedirect('/loggedin')
+    else:
+        return HttpResponseRedirect('/invalid')
 
 def loggedin(request):
 
-  return render_to_response('loggedin.html',{'full_name':request.user.username})
+  return render_to_response('registration/loggedin.html',{'full_name':request.user.username})
 
 def invalid_login(request):
 
@@ -51,7 +32,7 @@ def invalid_login(request):
 
 def logout(request):
 
-  return render_to_response('logout.html')
+  return render_to_response('registration/logout.html')
 
 
 def home (request):
@@ -70,19 +51,28 @@ def article(request,article_id=1):
 
 # this one is for the user registration form functions
 
+
 def register_user(request):
-  if request.method == 'POST':
-    form = MyRegistrationForm(request.POST)
-    if form.is_valid():
-      form.save()
-      return HttpResponseRedirect('/accounts/register_success')
+    if not request.POST:
+        return render(request,'register.html', {'user_creation_form' :UserCreationForm(),'captcha_form':CaptchaForm()})
 
-  args = {}
-  args.update(csrf(request))
 
-  args['form'] =MyRegistrationForm()
+    elif request.POST:
 
-  return render_to_response('register.html',args)
+        user_creation_form = UserCreationForm(request.POST)
+        captch_form = CaptchaForm(request.POST)
+        if user_creation_form.is_valid():
+            if captch_form.is_valid():
+
+                new_user = user_creation_form.save()
+                new_user.email =captch_form.cleaned_data['email']
+                new_user.save()
+
+            # log user in
+                return redirect('/register_success/')
+
+        # else if both forms are not valid
+        return render(request,'register.html', {'user_creation_form' :user_creation_form,'captcha_form':captch_form})
 
 
 def register_success(request):
