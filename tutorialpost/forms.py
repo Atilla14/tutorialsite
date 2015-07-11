@@ -25,8 +25,4 @@ class MyRegistrationForm(UserCreationForm):
     user.email =self.cleaned_data['email']
     user.captcha =self.cleaned_data['captcha']
     user.set_password(self.cleaned_data['password1'])
-
-
-
-    if commit:
-      user.save()
+    user.save()

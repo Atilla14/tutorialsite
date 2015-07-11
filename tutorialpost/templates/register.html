@@ -1,4 +1,6 @@
-{% block content%}
+{% extends 'home.html' %}
+
+{% block body%}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,13 +18,7 @@
            <!-- If there are non-field errors in the form,
                 iterate over them one by one and display them.
             -->
-           {% if form.non_field_errors %}
-            <p class="error">
-		          {% for error in form.non_field_errors %}
-		            {{ error }}
-		          {% endfor %}
-            </p>
-           {% endif %}
+
            <!-- Iterate over the fields in a form and render them  -->
            {% for field in form %}
             <div class="form-group">
