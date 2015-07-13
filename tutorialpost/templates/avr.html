@@ -1,3 +1,6 @@
+{% extends 'tutorialcommon.html' %}
+{% block tutorial %}
+    {% csrf_token %}
     <!-- Page Content -->
     <div class="container">
 
@@ -58,3 +61,5 @@
             </div>
         </div>
         <!-- /.row -->
+    </div>
+{% endblock %}
