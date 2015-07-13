@@ -1,8 +1,9 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 from django.contrib import auth
 from django.core.context_processors import csrf
 from django.shortcuts import render_to_response
-from tutorialpost.models import Forum
+from tutorialpost.models import Forum, Opencv
 from django.http import HttpResponse ,HttpResponseRedirect
 from forms import MyRegistrationForm
 from forms import ForumForm as ArticleForm
@@ -13,18 +14,6 @@ from django.shortcuts import render_to_response
 from django.template import RequestContext
 
 
-def handler404(request):
-    response = render_to_response('/templates/error/404.html', {},
-                                  context_instance=RequestContext(request))
-    response.status_code = 404
-    return response
-
-
-def handler500(request):
-    response = render_to_response('/templates/error/404.html', {},
-                                  context_instance=RequestContext(request))
-    response.status_code = 500
-    return response
 def login(request):
     c={}
     c.update(csrf(request))
@@ -37,9 +26,9 @@ def auth_view(request):
 
   if user is not None:
     auth.login(request,user)
-    return HttpResponseRedirect('/accounts/loggedin')
+    return HttpResponseRedirect('/loggedin')
   else:
-    return HttpResponseRedirect('/accounts/invalid')
+    return HttpResponseRedirect('/invalid')
 
 def loggedin(request):
 
@@ -57,13 +46,13 @@ def logout(request):
 def home (request):
     return render (request, "home.html")
 
-
-def articles (request):
+@login_required
+def getforum (request):
 
     return render_to_response('article.html',
                               {'articles' :Forum.objects.all() })
-
-def article(request,article_id=1):
+@login_required
+def getforumfromid(request,article_id=1):
     return render_to_response('articleind.html',
                               {'article':Forum.objects.get(id = article_id)})
 
@@ -92,30 +81,6 @@ def register_success(request):
   return render_to_response ('register_successful.html')
 
 
-
-def opencvcook(request):
-    language = 'en-gb'
-    session_language = 'en-gb'
-
-    if 'lang' in request.COOKIES:
-        language = request.COOKIES['lang']
-
-    return render_to_response('opencv.html',
-                              {'articles':Opencv.objects.all(),
-                               'language':language})
-
-def Opencv(request,article_id =1):
-    return render_to_response('article.html',{'Opencv' : Opencv.objects.get(id = article_id)})
-
-def language (request,language = 'en-gb'):
-    response = HttpResponse("Setting language to %s" % language)
-
-    response.set_cookie('lang',language)
-    request.session['lang'] =language
-
-    return response
-     
-
 def create(request):
 
   if request.POST:
@@ -130,3 +95,7 @@ def create(request):
     args.update(csrf(request))
     args['form']=form
     return render_to_response("create_forum.html",args)
+
+
+def getopencv(request):
+    return render_to_response("opencv.html",{'Opencv':Opencv.objects.all().order_by("-date")},)
