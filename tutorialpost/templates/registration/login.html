@@ -1,6 +1,8 @@
 
-{% block content %}
+{% extends 'home.html' %}
 
+{% block body %}
+<div class="list-group">
 {% if form.errors %}
 <p class = "error">Sorry.That's an invalid username or password</p>
 {% endif %}
@@ -13,6 +15,7 @@
 	<input type ="submit" value="login"/>
 
 </form>
+    </div>
 
 {% endblock %}
 

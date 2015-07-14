@@ -20,3 +20,9 @@ class CaptchaForm(forms.Form):
         fields =('email','captcha')
 
 
+    def save (self,commit=True):
+        user= super(UserCreationForm,self).save(commit=False)
+        user.email =self.cleaned_data['email']
+        user.captcha =self.cleaned_data['captcha']
+        user.set_password(self.cleaned_data['password1'])
+        user.save()

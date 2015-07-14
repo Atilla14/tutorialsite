@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="630efcea-a25a-409d-99db-24793ab80f83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tutorialpost/templates/home.html" afterPath="$PROJECT_DIR$/tutorialpost/templates/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tutorialsite.iws" />
@@ -34,105 +34,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webtutorial/urls.py">
+
+      <file leaf-file-name="latest.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorialpost/templates/latest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorialpost/urls.py">
+
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tutorialpost/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+            <state vertical-scroll-proportion="1.6825397">
+              <caret line="79" column="70" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="70" />
+
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+
       <file leaf-file-name="avr.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorialpost/templates/avr.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-19.458334">
               <caret line="124" column="34" selection-start-line="124" selection-start-column="34" selection-end-line="124" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorialpost/views.py">
+
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorialpost/templates/static/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+              <caret line="4" column="18693" selection-start-line="4" selection-start-column="18693" selection-end-line="4" selection-end-column="18693" />
+
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shortcuts.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/tutorialsite/local/lib/python2.7/site-packages/django/shortcuts.py">
+      <file leaf-file-name="shop-homepage.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorialpost/templates/static/css/shop-homepage.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
               <folding />
+
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorialpost/models.py">
+
+      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorialpost/static/js/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="opencv.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tutorialpost/templates/opencv.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56233424">
-              <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+              <caret line="2" column="26088" selection-start-line="2" selection-start-column="26088" selection-end-line="2" selection-end-column="26088" />
+
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorialpost/admin.py">
+
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorialpost/static/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="analytics.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorialpost/templates/analytics.html">
+
+      <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tutorialpost/templates/static/js/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="26899" selection-start-line="2" selection-start-column="26899" selection-end-line="2" selection-end-column="26899" />
+
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tutorialpost/templates/article.html">
+
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webtutorial/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+
               <folding />
             </state>
           </provider>
@@ -169,28 +166,27 @@
         <option value="$PROJECT_DIR$/tutorialpost/templates/index.html" />
         <option value="$PROJECT_DIR$/tutorialpost/templates/logout.html" />
         <option value="$PROJECT_DIR$/tutorialpost/templates/post.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/avr.html" />
         <option value="$PROJECT_DIR$/webtutorial/wsgi.py" />
         <option value="$PROJECT_DIR$/tutorialpost/templates/create_forum.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/latest.html" />
+
+        <option value="$PROJECT_DIR$/tutorialpost/templates/article.html" />
         <option value="$PROJECT_DIR$/tutorialpost/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/tutorialpost/models.py" />
         <option value="$PROJECT_DIR$/tutorialpost/templates/error/404.html" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/analytics.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/home.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/register_successful.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/invalid_login.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/forms.py" />
         <option value="$PROJECT_DIR$/webtutorial/settings.py" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/login.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/tutorialpost/forms.py" />
+        <option value="$PROJECT_DIR$/tutorialpost/templates/register.html" />
+        <option value="$PROJECT_DIR$/tutorialpost/templates/tutorialcommon.html" />
+        <option value="$PROJECT_DIR$/tutorialpost/urls.py" />
+        <option value="$PROJECT_DIR$/tutorialpost/templates/opencv.html" />
+        <option value="$PROJECT_DIR$/tutorialpost/templates/avr.html" />
         <option value="$PROJECT_DIR$/webtutorial/urls.py" />
         <option value="$PROJECT_DIR$/tutorialpost/views.py" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/register.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/article.html" />
-        <option value="$PROJECT_DIR$/tutorialpost/urls.py" />
-        <option value="$PROJECT_DIR$/tutorialpost/models.py" />
-        <option value="$PROJECT_DIR$/tutorialpost/templates/opencv.html" />
+        <option value="$PROJECT_DIR$/tutorialpost/templates/invalid_login.html" />
+        <option value="$PROJECT_DIR$/tutorialpost/templates/login.html" />
+        <option value="$PROJECT_DIR$/tutorialpost/templates/latest.html" />
+        <option value="$PROJECT_DIR$/tutorialpost/templates/home.html" />
+
       </list>
     </option>
   </component>
@@ -203,9 +199,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="59" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1307" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -277,18 +273,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorialsguy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorialsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorialpost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorialsguy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorialsite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tutorialpost" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+
         </subPane>
       </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+
+    <property name="last_opened_file_path" value="$USER_HOME$/hwcentral" />
+
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/models.py&#10;mode&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/models.py&#10;avr&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/avr.html&#10;url&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/webtutorial/urls.py&#10;lo&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/registration/login.html&#10;log&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/login.html&#10;vie&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/views.py&#10;sett&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/webtutorial/settings.py&#10;vi&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/views.py&#10;setting&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/webtutorial/settings.py&#10;lates&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/latest.html&#10;regis&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/register.html&#10;urls&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/webtutorial/urls.py&#10;base&#9;FILE&#9;file:///home/hrishikesh/hwcentral/core/templates/authenticated/base.html&#10;open&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/opencv.html&#10;urla&#9;null&#9;null&#10;latest&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/latest2.html&#10;child&#9;null&#9;null&#10;side&#9;null&#9;null" />
+
+    <property name="SearchEverywhereHistoryKey" value="analytics.html&#9;null&#9;null&#10;home&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/home.html&#10;hom&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/home.html&#10;css&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/static/css/bootstrap.css&#10;margin&#9;null&#9;null&#10;lates&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/latest.html&#10;login&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/login.html&#10;inval&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/invalid_login.html&#10;open&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/opencv.html&#10;url&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/urls.py&#10;view&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/views.py&#10;urls&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/urls.py&#10;articl&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/article.html&#10;av&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/avr.html&#10;ope&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/opencv.html&#10;regis&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/register.html&#10;vie&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/views.py&#10;form&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/forms.py&#10;ho&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/home.html&#10;re&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/register.html&#10;setting&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/webtutorial/settings.py&#10;vi&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/views.py&#10;base&#9;FILE&#9;file:///home/hrishikesh/hwcentral/core/templates/authenticated/base.html&#10;urla&#9;null&#9;null&#10;latest&#9;FILE&#9;file:///home/hrishikesh/tutorialsite/tutorialpost/templates/latest2.html&#10;child&#9;null&#9;null&#10;side&#9;null&#9;null" />
+
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -597,8 +639,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-4" width="1307" height="772" extended-state="6" />
-    <editor active="true" />
+    <frame x="59" y="24" width="1307" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271605" sideWeight="0.46867564" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271605" sideWeight="0.48136398" order="6" side_tool="false" content_ui="tabs" />
@@ -610,14 +652,27 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2624901" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271605" sideWeight="0.47264075" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27676448" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.49405235" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3148148" sideWeight="0.49484536" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36882716" sideWeight="0.46708962" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> 520e0303949ebb51dd6d905b3056124b75a17970
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3271605" sideWeight="0.48136398" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49691358" sideWeight="0.5051546" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277027" sideWeight="0.48136398" order="7" side_tool="false" content_ui="tabs" />
+
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -668,11 +723,7 @@
           <line>13</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="django-line">
-          <url>file://$PROJECT_DIR$/tutorialpost/templates/register.html</url>
-          <line>20</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
+
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -684,25 +735,14 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="53" />
+
+      <option name="time" value="50" />
+
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/hwcentral/core/utils/student.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.071428575">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+
     <entry file="file://$USER_HOME$/hwcentral/hwcentral/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -843,13 +883,23 @@
         </state>
       </provider>
     </entry>
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/logout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/lib/python2.7/dist-packages/django/contrib/auth/tests/urls_admin.py">
+
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+
     <entry file="file://$USER_HOME$/hwcentral/core/templates/authenticated/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -863,14 +913,32 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tutorialpost/templates/create_forum.html">
+
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/tutorialpost/templates/individual.html">
+
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/loggedin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/register_successful.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -884,86 +952,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/latest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/invalid_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webtutorial/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/register_successful.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30991736">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/tutorialsite/local/lib/python2.7/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+
     <entry file="file://$PROJECT_DIR$/tutorialpost/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/tutorialsite/local/lib/python2.7/site-packages/django/contrib/auth/__init__.py">
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9056604">
-          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
-          <folding />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/registration/loggedin.html">
+    <entry file="file://$USER_HOME$/.virtualenvs/tutorialsite/lib/python2.7/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35714287">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.3641161">
+          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33245382">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/tutorialcommon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/registration/login.html">
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="23" column="76" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialpost/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+
+          <folding />
+        </state>
+      </provider>
+    </entry>
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/opencv.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1363636">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webtutorial/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+
+          <folding />
+        </state>
+      </provider>
+    </entry>
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/static/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="26899" selection-start-line="2" selection-start-column="26899" selection-end-line="2" selection-end-column="26899" />
+
+          <folding />
+        </state>
+      </provider>
+    </entry>
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/static/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="26088" selection-start-line="2" selection-start-column="26088" selection-end-line="2" selection-end-column="26088" />
+
+          <folding />
+        </state>
+      </provider>
+    </entry>
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/static/css/bootstrap.css">
+
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.375">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -979,37 +1071,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/register.html">
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/invalid_login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30973452">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+
+        <state vertical-scroll-proportion="0.12626262">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/tutorialsite/local/lib/python2.7/site-packages/django/shortcuts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+
     <entry file="file://$PROJECT_DIR$/tutorialpost/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.15059222">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="8" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/avr.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3181818">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+          <folding />
+
         </state>
       </provider>
     </entry>
@@ -1023,50 +1111,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webtutorial/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+
+        <state vertical-scroll-proportion="0.05050505">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/tutorialsite/local/lib/python2.7/site-packages/django/forms/fields.py">
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/static/css/shop-homepage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="821" column="6" selection-start-line="821" selection-start-column="6" selection-end-line="821" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="10" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="10" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/admin.py">
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <caret line="4" column="18693" selection-start-line="4" selection-start-column="18693" selection-end-line="4" selection-end-column="18693" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/urls.py">
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/latest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="35" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/models.py">
+
+
+    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorialpost/templates/opencv.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56233424">
-          <caret line="107" column="18" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="18" />
+        <state vertical-scroll-proportion="1.6825397">
+          <caret line="79" column="70" selection-start-line="79" selection-start-column="68" selection-end-line="79" selection-end-column="70" />
+
           <folding />
         </state>
       </provider>

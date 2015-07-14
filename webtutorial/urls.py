@@ -12,9 +12,11 @@ urlpatterns = patterns('',
                        (r'^admin/', include(admin.site.urls)),
                        (r'^forum/',include('tutorialpost.urls')),
                        (r'^forum/post/$','tutorialpost.views.create'),
+
                        url(r'^login/$','django.contrib.auth.views.login',{'template_name': 'registration/login.html'},name='userlogin'),
                        url(r'^auth/$','tutorialpost.views.auth_view',),
                        url(r'^logout/$','django.contrib.auth.views.logout',{'next_page':'/'}),
+
                        url(r'^loggedin/$','tutorialpost.views.loggedin'),
                        url(r'^invalid/$','tutorialpost.views.invalid_login'),
                        url(r'^register/$','tutorialpost.views.register_user'),
