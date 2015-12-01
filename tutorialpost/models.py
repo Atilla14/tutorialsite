@@ -9,7 +9,16 @@ CORE_APP_LABEL = 'core'
 
 
 # Create your models here.
+class TutorialModel(models.Model):
+    topic = models.TextField(max_length=140,help_text= "Title of the topic you wish to contribute to")
+    tutor = models.TextField(max_length= 100,help_text= "Your name as you wish to be seen as the author of the tutorials")
+
+    id = models.CharField
+    def __unicode__(self):
+        return self.title
+
 class TopicsModel(models.Model):
+    topic= models.ForeignKey(TutorialModel,help_text= "select the topic under which this tutorial is classified")
     title =models.CharField(max_length=140)
     url =EmbedVideoField()
     description =models.TextField()
