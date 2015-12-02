@@ -45,6 +45,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'tutorialpost',
     'embed_video',
+    'captcha',
 )
 
 MIDDLEWARE_CLASSES = (
