@@ -20,18 +20,20 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '@6x^&88nc4v9ew5fn90ef77$954_1=(7jl5!7ao((&=lln*0f5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = DEBUG = not os.path.isfile('/etc/tutorialsite_prod')
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['www.tutorialsguy.com','stark-island-5688.herokuapp.com','.127.0.0.1:8000']
+ALLOWED_HOSTS = ['.tutorialsguy.com','http://127.0.0.1:8000/','stark-island-5688.herokuapp.com']
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     
     'django.contrib.auth.context_processors.auth',
     'django.core.context_processors.request',
 )
-
+SOUTH_MIGRATION_MODULES = {
+'captcha': 'captcha.south_migrations',
+}
 # Application definition
 
 INSTALLED_APPS = (

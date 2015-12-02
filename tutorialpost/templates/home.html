@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+{%block head%}
 <head>
 
     <meta charset="utf-8">
@@ -28,7 +28,7 @@
     <![endif]-->
 
 </head>
-
+{% endblock head %}
 <body id ="page-top">
 
     <!-- Navigation -->
@@ -50,6 +50,7 @@
                     <li >
                         <a href="/home/" class="fa fa-home"> Home</a>
                     </li>
+
                     <li>
                         <a href="/forum/all" class="fa fa-question"> Forums</a>
                     </li>
@@ -143,7 +144,6 @@
         </div>
         {% endblock %}
 
-    </div>
     <div class="topbtn btn btn-lg-11  col-lg-11">
                         <a  href="#page-top">
                             <i class="fa fa-chevron-circle-up fa-3x"></i>
@@ -163,10 +163,10 @@
     </div>
     <!-- /.container -->
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="static/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
 </body>
-
+{% include "analytics.html" %}
 
 </html>
