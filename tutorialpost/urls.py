@@ -32,7 +32,7 @@ urlpatterns = patterns('',
                            queryset=AVR.objects.all().order_by("-date")[:5],
                            template_name ="avr.html")),
                        url(r'^avr/2$',ListView.as_view(
-                           queryset=Opencv.objects.all().order_by("-date")[5:10],
+                           queryset=AVR.objects.all().order_by("-date")[5:10],
                            template_name ="avr.html")),
 
                        url(r'^(?P<pk>\d+)$',DetailView.as_view(
