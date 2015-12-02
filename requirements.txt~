@@ -1,5 +1,7 @@
 django
+gunicorn==19.3.0
 django-embed_video
 django-simple-captcha
 pillow
+
 
