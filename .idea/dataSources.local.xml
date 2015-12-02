@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="4" />
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="SQLite -" uuid="98cc10e9-f27b-4e9f-bee7-1ad3958165bc">
+      <secret-storage>master_key</secret-storage>
+    </data-source>
+  </component>
+</project>
