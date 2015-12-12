@@ -1,0 +1,31 @@
+<nav class="navbar navbar-transparent" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/home/"> tutorialsguy</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div>
+                <ul class="nav navbar-nav navbar-transparent">
+                    <li >
+                        <a href="#"> About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#"> Donate</a>
+                    </li>
+                </ul>
+                {% if user.is_authenticated %}
+	<ul class='navbar-right nav navbar-nav navbar-transparent listoptions'>
+    	<li> <a href="/logout">Log Out &nbsp</a></li>
+    </ul>
+    {% else %}
+    <ul class='navbar-right nav navbar-nav listoptions'>
+        <li><a href="/login/">Log In &nbsp</a></li>
+    </ul>
+{% endif %}
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>

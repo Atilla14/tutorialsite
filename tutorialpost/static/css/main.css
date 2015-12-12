@@ -1,0 +1,46 @@
+.navbar-transparent {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: black;
+}
+
+.navbar-transparent li a {
+	color: black;
+}
+
+.padded-top {
+	padding-top: 70px;
+}
+
+.negative-margin-top {
+	margin-top: -70px;
+}
+
+.jumbotron {
+	background-image: url("/static/img/jumbotron.jpg");
+	height: 100vh;
+}
+
+.black-line {
+	background-color: black;
+	border-top: 1px solid black;
+}
+
+.black {
+	color: black !important;
+}
+
+.flexed {
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+
+.thumbnail {
+	border: none;
+}
+
+.stretched-height {
+	height: 100%;
+}

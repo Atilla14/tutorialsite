@@ -1,0 +1,75 @@
+
+    <div class="jumbotron full-screen negative-margin-top">
+        <div class="container text-center padded-top">
+            <h1 class="black">Learn Anything<br><br>Learn Everything</h1>
+            <hr class="black-line">
+            <h3 class="black">Everything you need is right here</h3>
+        </div>
+    </div>
+    <div class="col-md-10 col-md-offset-1">
+        <legend>Tutorial List</legend>
+        <div class="row">
+            <div class="container-fluid flexed">
+                    <div class="thumbnail col-md-3">
+                        <a href="/home/opencv/" class="list-group-item"> 
+                            <img src="/static/img/opencv_logo.png">
+                        </a>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <a href="/home/avr/" class="list-group-item">
+                            <img src="/static/img/AVR-logo.png">
+                        </a>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <a href="/home/avr/" class="list-group-item">
+                            <img src="/static/img/AVR-logo.png">
+                        </a>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <a href="/home/avr/" class="list-group-item">
+                            <img src="/static/img/AVR-logo.png">
+                        </a>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <a href="/home/avr/" class="list-group-item">
+                            <img src="/static/img/AVR-logo.png">
+                        </a>
+                    </div>
+
+
+
+            </div>
+         </div>   
+            <div class="col-md-12 padded-top">
+                <div class="carousel-holder">
+                <legend>Recent Uploads</legend>
+                </div>
+
+
+                    <div class="row">
+                    {% block content %}
+                        {% for Opencv in object_list %}
+
+                            <div class="col-lg-5 col-md-6">
+                            <div class="thumbnail">
+                            <h4 class="pull-right">{{ Opencv.date|date:"d-m-y" }}</h4>
+                            {% load embed_video_tags %}
+                            {% video Opencv.url as my_video %}
+                            {% video my_video '330x250' %}
+                            {% endvideo %}
+                            <h4><a href="{{ Opencv.url }}">{{ Opencv.title }}</a><br></h4>
+                            <p class="pull-right">{{ Opencv.description|safe|linebreaks }}</p>
+                            <div class="ratings"><br>
+                                </div>
+
+                            </div>
+                            </div>
+                            {% endfor %}
+                        {% endblock %}
+                    </div>
+
+
+                </div>
+
+
+        </div>

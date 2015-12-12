@@ -11,14 +11,9 @@
 
     <title>tutorialsguy:Tutorials and beyond</title>
 
-    <!-- Bootstrap Core CSS -->
     <link href="/static/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="/static/css/shop-homepage.css" rel="stylesheet">
+    <link href="/static/css/main.css" rel="stylesheet" type="text/css">
     <link href="/static/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,139 +26,13 @@
 {% endblock head %}
 <body id ="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/home/"> tutorialsguy</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li >
-                        <a href="/home/" class="fa fa-home"> Home</a>
-                    </li>
+    {% include 'partials/header_static.html' %}
 
-                    <li>
-                        <a href="/forum/all" class="fa fa-question"> Forums</a>
-                    </li>
-                </ul>
-                {% if user.is_authenticated %}
-	<ul class='navbar-right nav navbar-nav listoptions'>
-    	<li> <a href="/logout">Log Out &nbsp</a></li>
-    </ul>
-    {% else %}
-    <ul class='navbar-right nav navbar-nav listoptions'>
-        <li><a href="/login/">Log In &nbsp</a></li>
-    </ul>
-{% endif %}
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    {% include 'landing_page.html' %}
 
-    <!-- Page Content -->
-    <div class="container">
-    <h1><i><B><font aria-pressed="true">TUTORIALSGUY.COM :TUTORIALS AND BEYOND!!</font> </B></i> </h1>
-        <div class="row">
+    {% include 'partials/footer.html' %}
 
-            <div class="col-md-3">
-                <p class="lead">Presenting</p>
-                <div class="list-group">
-                    <a href="/home/" class="list-group-item"><i class="fa fa-home fa-2x    "> Home</i></a>
-                    <a href="/home/latest/" class="list-group-item"><i class="fa fa-fighter-jet fa-2x    "> Latest post</i></a><br>
-                    <p class="lead">Tutorial List</p>
-                    <div class="list-group">
-                        <a href="/home/opencv/" class="list-group-item"><i class="fa fa-keyboard-o fa-2x    "> OpenCV &copy;</i></a>
-                        <a href="/home/avr/" class="list-group-item"><i class="fa fa-keyboard-o fa-2x    "> AVR MCU &copy;</i></a>
-
-
-                    </div>
-
-                </div>
-            </div>
-            {% block body %}
-            <div class="col-md-9">
-            <h2>Login or sign-up for free and proceed!</h2>
-            <div class="row">
-            <div class="col-lg-5 col-md-6">
-
-                <a href="/register/" class="list-group-item"><i class="fa fa-trophy fa-2x    "> Sign-Up for free!</i></a>
-            </div>
-            <div class="col-lg-5 col-md-6">
-                <a href="/login/" class="list-group-item"><i class="fa fa-sign-in fa-2x    "> Log-in</i></a>
-            </div>
-            </div>
-
-                <div >
-                    <br>
-                    <img src="/static/img/top.jpg" class=" img-thumbnail">
-                </div>
-
-                <div class="row carousel-holder">
-                <h3><u>Recent Uploads</u></h3>
-                </div>
-
-
-                    <div class="row">
-                    {% block content %}
-                        {% for Opencv in object_list %}
-
-                            <div class="col-lg-5 col-md-6">
-                            <div class="thumbnail">
-                            <h4 class="pull-right">{{ Opencv.date|date:"d-m-y" }}</h4>
-                            {% load embed_video_tags %}
-                            {% video Opencv.url as my_video %}
-                            {% video my_video '330x250' %}
-                            {% endvideo %}
-                            <h4><a href="{{ Opencv.url }}">{{ Opencv.title }}</a><br></h4>
-                            <p class="pull-right">{{ Opencv.description|safe|linebreaks }}</p>
-                            <div class="ratings"><br>
-                                </div>
-
-                            </div>
-                            </div>
-                            {% endfor %}
-                        {% endblock %}
-                    </div>
-
-
-                </div>
-
-            </div>
-
-        </div>
-        {% endblock %}
-
-    <div class="topbtn btn btn-lg-11  col-lg-11">
-                        <a  href="#page-top">
-                            <i class="fa fa-chevron-circle-up fa-3x"></i>
-                        </a>
-    </div>
-    <!-- /.container -->
-    <div class="container">
-        <hr>
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; tutorialsguy 2015</p>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <!-- /.container -->
-    <!-- jQuery -->
     <script src="static/js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
     <script src="static/js/bootstrap.min.js"></script>
 </body>
 {% include "analytics.html" %}
